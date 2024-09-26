@@ -3,7 +3,6 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 })
-
 rl.question('Sisestage oma nimi: ', (nimi) => {
     rl.question('Sisestage lubatud kiirus (km/h): ', (lubatud) => {
         rl.question('Sisestage tegelik kiirus (km/h): ', (tegelik) => {

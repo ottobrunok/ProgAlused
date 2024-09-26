@@ -13,6 +13,3 @@ rl.question('Sisestage astme alus: ', (alus) => {
 
 
 
-    
-
-
