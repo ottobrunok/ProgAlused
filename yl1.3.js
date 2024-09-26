@@ -1,9 +1,18 @@
-let alus = 2
-let astendaja = 4
-console.log(alus**astendaja);
+const readline = require('readline')
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
 
-    
-    
+rl.question('Sisestage astme alus: ', (alus) => {
+    rl.question('Sisestage astendaja: ', (astendaja) => {
+        console.log(alus**astendaja);
+        rl.close()
+    })
+});
+
+
+
     
 
 
